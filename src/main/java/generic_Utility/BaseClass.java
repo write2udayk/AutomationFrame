@@ -19,7 +19,7 @@ public class BaseClass {
 	Selenium_Utility SUTIL= null;
 	Properties_Utility PUTIL= new Properties_Utility();
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void createConnetion() {
 		System.out.println("Connetion Established");
 		

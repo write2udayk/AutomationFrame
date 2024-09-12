@@ -21,13 +21,10 @@ public class LE_01 extends BaseClass{
 		int num =JUTIL.getRandomNumber(1000);
 		Excel_Utility EUTIL=new Excel_Utility();
 		
-		
 		String FIRSTNAME=EUTIL.getIndividualTestDate("Leads",2,1);
-		String LASTNAME=EUTIL.getIndividualTestDate("Leads",2,2);
-		String COMPANY=EUTIL.getIndividualTestDate("Leads",2,3);
+		String LASTNAME=EUTIL.getIndividualTestDate ("Leads",2,2);
+		String COMPANY=EUTIL.getIndividualTestDate  ("Leads",2,3);
 		Thread.sleep(3000);
-		
-		
 		
 		Home_Page hp = new Home_Page(driver);
 		hp.clickOnLeads();
