@@ -38,6 +38,7 @@ public class LE_01 extends BaseClass{
 		System.out.println(" LE_01 Completed successfully ");
 		
 		Thread.sleep(3000);
+		System.out.println("run successfully");
 		
 		
 		
